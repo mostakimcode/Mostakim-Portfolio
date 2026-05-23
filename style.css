@@ -10,7 +10,7 @@ body{
 
 /* common class */
 .btn{
-    background-color: #872BFF;
+    background-color: #1a4fff;
     color: #fff;
     padding: 14px 30px;
     border-radius: 30px;
@@ -20,7 +20,7 @@ body{
     cursor: pointer;
     margin-right: 20px;
     margin-bottom: 10px;
-    border: 2px solid #872BFF;
+    border: 2px solid #1a4fff;
     transition: all 1s;
 }
 
@@ -30,7 +30,7 @@ body{
 }
 
 .btn2{
-    background-color: transparent;
+    background-color: white;
     padding: 14px 30px;
     border-radius: 30px;
     font-size: 14px;
@@ -38,7 +38,12 @@ body{
     color: black;
     box-shadow: 0px 11px 31px 0px #8C8C8C;
     cursor: pointer;
-    border: 2px solid #872BFF;
+    border: 2px solid #1a4fff;
+    transition: all 1s ;
+}
+.btn2:hover{
+    background-color: #1a4fff;
+    color: white;
 }
 
 .container{
@@ -56,7 +61,7 @@ body{
     font-size: 22px;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #6A14DA;
+    color: #1a4fff;
     font-weight: bold;
     margin-bottom: 20px;
 
@@ -79,8 +84,13 @@ body{
     border-radius: 16px;
     box-shadow:  0px 3px 5px #8C8C8C;
     width: 320px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
     
-    
+}
+.card:hover {
+    transform: scale(1.1);
+    opacity: 0.9;
+    background-color: #dedede;
 }
 .card *{
     margin-bottom: 20px;
@@ -105,6 +115,11 @@ body{
     background-color: white;
     box-shadow: 0px 4px 4px #8C8C8C;
     border-radius: 16px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+.brands:hover {
+    transform: scale(1.05);
+    background-color: #f6f6f6;
 }
 
 #hero{
@@ -138,7 +153,7 @@ body{
 }
 
 #hero-text h1 span{
-    color: #872BFF;
+    color: #2c5cfa;
 
 }
 #hero-text p{
@@ -163,7 +178,9 @@ body{
     justify-content: center;
     gap: 40px;
     flex-wrap: wrap;
+    
 }
+
 .btn-container{
     text-align: center;
     padding: 60px 0;
