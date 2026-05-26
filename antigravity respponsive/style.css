@@ -380,11 +380,15 @@ body {
 @media (max-width: 600px) {
     #footer-container {
         flex-direction: column;
-        gap: 15px;
+        gap: 20px;
         text-align: center;
     }
 
+    footer p {
+        line-height: 1.6;
+    }
+
     footer {
-        padding: 30px 20px;
+        padding: 40px 20px;
     }
 }

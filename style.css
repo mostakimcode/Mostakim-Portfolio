@@ -357,17 +357,17 @@ html, body {
 
 /* Mobiles devices */
 @media (max-width: 600px) {
-    footer {
+    #footer-container {
         flex-direction: column;
-        gap: 15px;
+        gap: 20px;
         text-align: center;
-        padding: 30px 20px;
-    }
-    .card:hover {
-            transform: scale(1.04);
-    }
-    .card {
-        margin: 6px 40px;
     }
 
+    footer p {
+        line-height: 1.6;
+    }
+
+    footer {
+        padding: 40px 20px;
+    }
 }
