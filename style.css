@@ -219,12 +219,8 @@ footer p {
   color: #ffffff;
 }
 
+/* responsive section */
 
-/* ==========================================
-   RESPONSIVE DESIGN SYSTEM
-   ========================================== */
-
-/* Safeguard to prevent horizontal overflow on smaller viewports */
 html, body {
     overflow-x: hidden;
 }
@@ -356,4 +352,8 @@ html, body {
         text-align: center;
         padding: 30px 20px;
     }
+    .card:hover {
+            transform: scale(1.04);
+    }
+
 }
