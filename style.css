@@ -251,7 +251,7 @@ html, body {
     #hero-container {
         height: auto;
         padding-top: 60px;
-        padding-bottom: 40px;
+        padding-bottom: 0px;
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -321,6 +321,9 @@ html, body {
     #hero {
         background-size: 300px;
     }
+    #hero-container {
+        padding-bottom: 0;
+    }
 
     #hero-text h1 {
         font-size: 34px;
@@ -375,5 +378,8 @@ html, body {
     }
     .card{
         margin: 6px 20px;
+    }
+    #hero-container {
+        padding-bottom: 0;
     }
 }
