@@ -30,7 +30,6 @@ body{
     color: black;
     border-color: white;
     transform: translateY(-7px);
-    box-shadow: var(--shadow-lg);
 }
 
 .btn2{
@@ -49,6 +48,7 @@ body{
     background-color: #1a4fff;
     color: white;
     border-color: #1a4fff;
+    transform: translateY(-7px);
 }
 
 .container{
